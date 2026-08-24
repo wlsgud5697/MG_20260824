@@ -276,8 +276,7 @@
         document.getElementById('budgetForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
-            if (SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbz2yR7-V5M06QIvSRLvDLeDVTGSQutynkRxW6k7KpLoZOxgRIHXk9rYVDj_KXhPoNOJ/exec
-              ') {
+            if (SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbz2yR7-V5M06QIvSRLvDLeDVTGSQutynkRxW6k7KpLoZOxgRIHXk9rYVDj_KXhPoNOJ/exec') {
                 showAlert('설정 오류', 'Google Apps Script URL이 설정되지 않았습니다.');
                 return;
             }
